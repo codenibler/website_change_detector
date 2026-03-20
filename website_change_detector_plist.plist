@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.yourname.website_change_detector</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/path/to/project/venv/bin/python3</string>
+        <string>/path/to/project/main.py</string>
+    </array>
+
+    <key>StartInterval</key>
+    <integer>1800</integer>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>WorkingDirectory</key>
+    <string>/path/to/project</string>
+
+    <key>StandardOutPath</key>
+    <string>/path/to/project/website_change_detector.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/path/to/project/website_change_detector.err</string>
+</dict>
+</plist>
